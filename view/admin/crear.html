@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Bloqueo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<table width="30%" height="30%" >
+<img src="bloqueado.jpg">
+</table>
+ 
+<table>
+<td align="center" valign="middle">
+SI PRESENTA ALGUN PROBLEMA, POR FAVOR<br/>
+LLENE EL SIGUIENTE FORMULARIO Y LUEGO<br/>
+Y LUEGO PRESIONE EL BOTON  " ENVIAR "<br/>
+</td>
+</table>
+ 
+<table>
+<td align="center" valign="middle">
+<!--Formulario-->
+<FORM id="contacto" name="contacto" action="http://10.168.10.1/enviar/enviar.php" method="POST">
+<p><label>Nombre:<input name="nombre" type="text" id="nombre" size="40" /></label></p>
+<p><label>Telefono:<input name="telefono" type="text" id="telefono" size="40" /></label></p>
+<p><label>E-mail:<input name="mail" type="text" id="mail" size="41"/></label></p>
+<p><label>IP:<input name="ip" type="text" id="ip" size="45" value="$(ip)" disabled=”disabled” /></label></p>
+<p><label>MAC:<input name="mac" type="text" id="mac" size="43" value="$(mac)" disabled=”disabled” /></label></p>
+<p><label>Mensaje<br>
+<textarea name="mensaje" cols="40" rows="8" id="mensaje">
+</textarea></label>
+</p>
+<p><input type="submit" name="Submit" value="Enviar"/></p>
+</FORM>
+ 
+ 
+</td>
+</table>
+</body>
+</html>

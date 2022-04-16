@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="test api mikrotik">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+                     
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">Estas usando una version <strong>desactualizada</strong> del navegador. Por favor <a href="http://browsehappy.com/">actualizalo</a> o <a href="http://www.google.com/chromeframe/?redirect=true">o habilite Google chrome Frame</a> para mejorar su experiencia.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Mkt API Hotspot Test</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#" id="call_bindings">ip binding</a></li>
+                        <li><a href="#">agregar</a></li>
+                        <li><a href="#">cortar</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+				<aside>
+                    <h3>API MIKROTIK</h3>
+                   
+					<table>
+<td align="center" valign="middle">
+<!--Formulario-->
+<FORM id="contacto" name="contacto" action="/api/crearcliente.php" method="POST">
+<p><label>Codigo Cliente:<input name="codigocliente" type="text" id="codigocliente" size="45" /></label></p>
+<p><label>Nombre Cliente:<input name="nombrecliente" type="text" id="nombrecliente" size="45" /></label></p>
+<p><label>Direccion IP:<input name="ip" type="text" id="ip" size="45" /></label></p>
+<p><label>Direccion MAC:<input name="mac" type="text" id="mac" size="45" " /></label></p>
+<p><label>Velocidad Asignada:<input name="velocidad" type="text" id="velocidad" size="45"/></label></p>
+
+<p><input type="submit" name="Submit" value="Enviar"/></p>
+</FORM>
+ 
+ 
+</td>
+</table>
+                    
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>Cops| Agosto 2018</h3>
+            </footer>
+        </div>
+
+
+    </body>
+</html>
